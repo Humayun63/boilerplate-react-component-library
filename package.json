@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-without-tailwind-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "publish-lib": "npm version patch && npm publish"
   },
   "keywords": [],
   "author": "",
