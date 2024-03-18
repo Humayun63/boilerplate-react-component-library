@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Input } from "../components";
+import { Button, Checkbox, Input, InputField, RadioButton, SelectButton, Textarea, ToggleButton } from "../components";
 import { memo } from "react";
 
 const TestingApp = () => {
@@ -7,6 +7,12 @@ const TestingApp = () => {
         <>
             <Button >nice</Button>
             <Input/>
+            <Checkbox />
+            <InputField />
+            <RadioButton />
+            <SelectButton />
+            <Textarea />
+            <ToggleButton/>
         </>
     )
 }
