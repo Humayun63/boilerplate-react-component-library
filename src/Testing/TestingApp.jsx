@@ -5,7 +5,7 @@ import { memo } from "react";
 const TestingApp = () => {
     return(
         <>
-            <Button>nice</Button>
+            <Button >nice</Button>
             <Input/>
         </>
     )
