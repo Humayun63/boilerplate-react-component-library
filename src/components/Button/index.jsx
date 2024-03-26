@@ -69,7 +69,7 @@ const Button = memo((props) => {
 
   return (
     <button
-      className={`${buttonClass} ${iconPosition === "right" && "flex-row"} ${
+      className={`text-red ${buttonClass} ${iconPosition === "right" && "flex-row"} ${
         iconPosition === "left" && "flex-row-reverse"
       } ${className} ${sizeClass} ${color}`}
       {...attributes}

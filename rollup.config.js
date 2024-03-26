@@ -10,14 +10,20 @@ export default [
         output: [
             {
                 file: 'dist/index.js',
-                format: 'es',
+                format: 'esm',
                 exports: 'named'
             }
         ],
         plugins: [
             postcss({
-                plugins: [],
-                minimize: true
+                config: {
+                  path: './postcss.config.js',
+                },
+                extensions: ['.css'],
+                minimize: true,
+                inject: {
+                  insertAt: 'top',
+                },
             }),
             babel({
                 exclude: 'node_module/**',
@@ -26,6 +32,7 @@ export default [
             external(),
             resolve(),
             terser()
-        ]
+        ],
+        external: ["react", "react-dom"],
     }
 ]

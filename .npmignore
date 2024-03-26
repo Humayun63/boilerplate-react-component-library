@@ -1,6 +1,8 @@
 .storybook
 node_modules
 src
+README.md
+postcss.config.js
 package-lock.json
 rollup.config.js
 .gitignore

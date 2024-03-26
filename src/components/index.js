@@ -1,4 +1,5 @@
 import './index.css';
+import './output.css'
 export {default as Button } from './Button/index.jsx'
 export {default as Input} from './Input/Input.jsx'
 export {default as Checkbox} from './Checkbox/index.jsx'

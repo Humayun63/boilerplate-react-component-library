@@ -70,7 +70,7 @@ const SelectButton = memo((props) => {
       setOpen(false);
     }
   };
-
+console.log(selected)
   return (
     <div className={` relative`}>
       {label && (
